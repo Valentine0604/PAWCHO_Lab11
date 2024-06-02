@@ -16,6 +16,7 @@ Zadanie demonstrujące użycie Docker Compose do uruchomienia stosu LEMP (Linux,
 docker-compose up -d
 ```
 Wynik:
+
 ![image](https://github.com/Valentine0604/PAWCHO_Lab11/assets/106283972/c699f103-f66f-4e17-8dff-63ea4abdaab9)
 
 <b>Sprawdzenie uruchomionych kontenerów:</b><br>
@@ -23,6 +24,7 @@ Wynik:
 docker-compose ps
 ```
 Wynik:
+
 ![image](https://github.com/Valentine0604/PAWCHO_Lab11/assets/106283972/21f1dbed-5528-4508-a4f9-ea9825faba18)
 
 <b>Zatrzymanie i usunięcie kontenerów:</b><br>
@@ -31,6 +33,7 @@ Wynik:
 docker-compose down
 ```
 Wynik:
+
 ![image](https://github.com/Valentine0604/PAWCHO_Lab11/assets/106283972/fde35cfd-d484-449b-9986-d093d8a34205)
 
 <b>Usunięcie wszystkich zasobów, w tym woluminów:</b><br>
@@ -38,6 +41,8 @@ Wynik:
 ```
 docker-compose down -v
 ```
+Wynik:
+
 ![image](https://github.com/Valentine0604/PAWCHO_Lab11/assets/106283972/e1c62c4c-c44f-4751-a185-47d490406edd)
 
 --------------------------------------------------------------------------------------------------------------------
